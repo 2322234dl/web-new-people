@@ -82,8 +82,10 @@ header .logo {
     background-color:white;
 }
 .player iframe{
-    width: 100%;
-    max-width: 1000px;
+    /* width: 100%; */
+    /* max-width: 1000px; */
+    max-width: 100%;
+    height: auto;
 }
 
 .player .img img {
