@@ -18,7 +18,7 @@
     --font-micro: 10px;
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 body{
     font-family: Roboto;
@@ -34,6 +34,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: var(--padding);
     background-color: var(--black-color);
     color: #fff;
@@ -41,16 +42,11 @@ header {
 }
 
 header .logo {
-    font-size: var(--font-medium);
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: var(--font-medium); */
 }
-
-
-
-.title {
-    font-size: var(--font-medium);
-}
-
 
 
 .channel {
@@ -103,7 +99,7 @@ header .logo {
 
 .info .metadata .title {
     font-size: var(--font-large);
-    font-family: NanumMyeongjo, cursive;
+    font-family: 'Do Hyeon', sans-serif;
 }
 .info .metadata .title 
 a {
