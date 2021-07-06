@@ -72,24 +72,22 @@ header .logo {
 
 /* Video player */
 .player {
-    /* position: sticky;
-  top: -1px;
-    text-align: center; */
-
-    position: relative; width: 100%; padding-bottom: 56.25%;
-
+   position: relative; width: 100%; padding-bottom: 56.25%;
     background-color:white;
 }
 .player iframe{
-    /* width: 100%;
-    max-width: 1000px; */
-
     position: absolute; width: 100%; height: 100%;
 }
 
 .player .img img {
     width: 100%;
 }
+
+/* image */
+.image .img img {
+    width: 100%;
+}
+
 
 /* Info */
 .info {
