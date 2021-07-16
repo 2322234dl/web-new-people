@@ -121,8 +121,6 @@ header .logo {
 
 /* Info */
 .info {
-    margin-bottom: var(--padding);
-    margin-top: var(--padding);
     padding: var(--padding);
     background-color: var(--grey-light-color);
 }
